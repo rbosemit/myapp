@@ -1,0 +1,55 @@
+body{
+	position: relative; /* required */
+  background-color: black;
+}
+.list-group{
+  position: sticky; /* Supported in latest version of Chrome, Firefox, Safari, Opera and Edge browsers */
+}
+.list-group-item{
+  border: none !important;
+  line-height: 0%;
+}
+.list-group-item:hover{
+  background-color: white!important;
+}
+.page{
+    margin: auto;
+    max-width: 93%;
+    background: white !important;
+}
+.font_title{
+    font-size: 5rem;
+}
+.side_nav {
+    top: 140px;
+    z-index: 1;
+    overflow-x: hidden;
+    text-align: end;
+  }
+
+  .active{
+    color: black !important;
+    text-decoration: underline !important;
+    text-decoration-color: blue !important;
+    background-color: white !important;
+    border: none !important;
+  }
+ 
+  .second_top{
+    top: 24px;
+  }
+  .all_content{
+    padding-top: 160px ;
+  }
+  .no-margin{
+    margin-left: 0px !important;
+  }
+  .close{
+    font-size: 1rem;
+  }
+  .close:hover{
+    cursor: pointer;
+  }
+  .img_prop{
+    width: 100%;
+  }

@@ -1,0 +1,33 @@
+body{
+	position: relative; /* required */
+    background-color: black;
+}
+.page{
+    margin: auto;
+    max-width: 93%;
+    background: white !important;
+}
+
+.close{
+    font-size: 1rem;
+  }
+  .close:hover{
+    cursor: pointer;
+  }
+  .no-margin{
+    margin-left: 0px !important;
+  }
+  .img_prop{
+    width: 100%;
+    padding: 2rem;
+    max-height: 500px !important;
+  }
+  .big_text{
+      font-size: 6rem;
+  }
+  .heading{
+      background-color: white;
+  }
+  .mt-10{
+      margin-top: 5rem;
+  }
